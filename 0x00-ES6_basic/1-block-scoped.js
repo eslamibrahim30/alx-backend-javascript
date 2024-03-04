@@ -1,4 +1,4 @@
-export function taskBlock(trueOrFalse) {
+export default function taskBlock(trueOrFalse) {
   task = false;
   task2 = true;
 
