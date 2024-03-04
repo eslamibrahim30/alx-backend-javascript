@@ -1,10 +1,10 @@
 export default function taskBlock(trueOrFalse) {
-  let task = false; // Changed var to let
-  let task2 = true; // Changed var to let
+  task = false;
+  task2 = true;
 
   if (trueOrFalse) {
-    task = true; // Removed var
-    task2 = false; // Removed var
+    var task;
+    var task2;
   }
 
   return [task, task2];
